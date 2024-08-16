@@ -28,8 +28,12 @@ def bill():
     print(random.choice(friends))
 
 
-if __name__ == '__main__':
-    #random_numbers()
-    #heads_or_tails()
+def main():
+    random_numbers()
+    heads_or_tails()
     states_of_america()
-    #bill()
+    bill()
+
+
+if __name__ == '__main__':
+    main()

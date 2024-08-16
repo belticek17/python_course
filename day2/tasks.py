@@ -1,5 +1,5 @@
 def two_digit_number():
-    number = input()
+    number = input("Write a 2 digit number: ")
     first_digit = int(number[0])
     second_digit = int(number[1])
     result = first_digit + second_digit
@@ -16,7 +16,7 @@ def bmi_calculator():
 def life_in_weeks():
     age = int(input("What is your current age? "))
     years_remaining = 90 - age
-    weeks_remaining = years_remaining * 12
+    weeks_remaining = years_remaining * 52
     print(f"You have {weeks_remaining} weeks left.")
 
 
@@ -29,8 +29,12 @@ def errors():
     print("You are " + str(age) + " years old.")
 
 
-if __name__ == '__main__':
-    #two_digit_number()
-    #bmi_calculator()
-    #life_in_weeks()
+def main():
+    two_digit_number()
+    bmi_calculator()
+    life_in_weeks()
     errors()
+
+
+if __name__ == '__main__':
+    main()

@@ -12,7 +12,7 @@ def rollercoaster():
         elif age <= 18:
             print("Youth tickets are $7.")
             bill = 7
-        elif age >= 45 and age <= 55:
+        elif 45 <= age <= 55:
             print("Everything is going to be ok. Have a free ride on us!")
         else:
             print("Adult tickets are $12.")
@@ -27,7 +27,8 @@ def rollercoaster():
 
 
 def even_or_odd():
-    if int(input()) % 2 == 0:
+    number_input = int(input("Write a number! "))
+    if number_input % 2 == 0:
         print("EVEN NUMBER")
     else:
         print("ODD NUMBER")
@@ -67,9 +68,9 @@ def leap_year():
 
 def pizza_order():
     print("Thank you for choosing Python Pizza Deliveries!")
-    size = input()  # What size pizza do you want? S, M, or L
-    add_pepperoni = input()  # Do you want pepperoni? Y or N
-    extra_cheese = input()  # Do you want extra cheese? Y or N
+    size = input("What size pizza do you want? S, M, or L? ")  # What size pizza do you want? S, M, or L
+    add_pepperoni = input("Do you want pepperoni? Y or N? ")  # Do you want pepperoni? Y or N
+    extra_cheese = input("Do you want extra cheese? Y or N? ")  # Do you want extra cheese? Y or N
     if size == 'S':
         price = 15
         if add_pepperoni == 'Y':
@@ -115,10 +116,14 @@ def love_calculator():
         print(f"Your score is {score}.")
 
 
-if __name__ == '__main__':
-    #rollercoaster()
-    #even_or_odd()
-    #bmi_2_point_0()
-    #leap_year()
-    #pizza_order()
+def main():
+    rollercoaster()
+    even_or_odd()
+    bmi_2_point_0()
+    leap_year()
+    pizza_order()
     love_calculator()
+
+
+if __name__ == '__main__':
+    main()

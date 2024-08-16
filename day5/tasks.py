@@ -36,8 +36,12 @@ def fizzbuzz():
             print(number)
 
 
-if __name__ == '__main__':
-    #print_for_loop()
-    #scores()
-    #gauss_challenge()
+def main():
+    print_for_loop()
+    scores()
+    gauss_challenge()
     fizzbuzz()
+
+
+if __name__ == '__main__':
+    main()

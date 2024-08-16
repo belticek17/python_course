@@ -1,0 +1,15 @@
+words = [
+    "abandon", "ability", "absence", "academy", "account", "activity", "airport", "animal", "answer", "applause",
+    "bachelor", "balance", "barrier", "benefit", "bicycle", "brother", "cabinet", "capture", "caution", "central",
+    "disease", "distant", "dormant", "driver", "eagle", "elegant", "engine", "enhance", "favorite", "further",
+    "gallery", "gravity", "heroic", "horizon", "hospital", "humanity", "incense", "jacket", "journey", "kitchen",
+    "laptop", "library", "market", "message", "museum", "natural", "nuclear", "option", "patient", "picture",
+    "quality", "ranger", "revenue", "rhythm", "school", "science", "secure", "shadow", "system", "template",
+    "umbrella", "vaccine", "vehicle", "victory", "witness", "zebra", "absolutely", "acceptance", "activity",
+    "adventure", "algorithm", "appetite", "assembly", "boundary", "capable", "condition", "creative", "dimension",
+    "dynamic", "evidence", "frequency", "gesture", "headline", "horizon", "invisible", "isolated", "knowledge",
+    "language", "learning", "magnitude", "maximum", "measuring", "momentum", "narrative", "official", "operation",
+    "particular", "perception", "potential", "problem", "quality", "reliable", "response", "separation", "significant",
+    "solution", "statement", "structure", "superior", "synthesis", "technology", "theoretical", "understand",
+    "universe", "validation", "variable", "voluntary", "wellness", "workshop", "writing",
+]

@@ -37,8 +37,12 @@ def switch_values():
     print("b: " + b)
 
 
-if __name__ == "__main__":
+def main():
     print_all_lines()
     debug()
     input_function()
     switch_values()
+
+
+if __name__ == "__main__":
+    main()
